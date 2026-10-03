@@ -30,7 +30,7 @@ kdd_tr = pd.read_parquet("nslkdd/clean/nslkdd_train.parquet")
 kdd_te = pd.read_parquet("nslkdd/clean/nslkdd_test.parquet")
 ```
 
-Reading these files needs `pandas` and `pyarrow`.
+Install the requirements with `pip install -r requirements.txt` (pandas, pyarrow and the Kaggle CLI).
 
 ## Rebuild
 
@@ -47,6 +47,23 @@ python -m kaggle datasets download -d mrwellsdavid/unsw-nb15 -p unsw-nb15 --unzi
 python -m kaggle datasets download -d dhoogla/cicids2017   -p cicids2017 --unzip
 python -m kaggle datasets download -d hassan06/nslkdd      -p nslkdd/original --unzip   # then delete the duplicate nsl-kdd/ subfolder
 ```
+
+## Licences and citations
+
+The data in this repo is a **mirror** of third-party datasets. It is redistributed under each owner's terms, as summarised below. The data is **for academic research only**, and anyone using it must cite the original papers. The cleaning scripts and notes are this repo's own work.
+
+| Dataset | Owner | Terms | Cite |
+|---|---|---|---|
+| UNSW-NB15 | UNSW Canberra Cyber (N. Moustafa, J. Slay) | Free use for academic research purposes; **commercial use strictly prohibited** ([terms](https://research.unsw.edu.au/projects/unsw-nb15-dataset)) | [1], [2] |
+| CIC-IDS-2017 | Canadian Institute for Cybersecurity, UNB | Redistribution and mirroring allowed in any form, but any use or redistribution must cite the paper ([terms](https://www.unb.ca/cic/datasets/ids-2017.html)). The Kaggle copy used here (`dhoogla/cicids2017`) is CC BY-NC-SA 4.0 | [3] |
+| NSL-KDD | Canadian Institute for Cybersecurity, UNB | Same CIC terms: redistribution allowed with citation ([terms](https://www.unb.ca/cic/datasets/nsl.html)) | [4] |
+
+1. N. Moustafa and J. Slay, "UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)," *Military Communications and Information Systems Conference (MilCIS)*, IEEE, 2015.
+2. N. Moustafa and J. Slay, "The evaluation of Network Anomaly Detection Systems: Statistical analysis of the UNSW-NB15 data set and the comparison with the KDD99 data set," *Information Security Journal: A Global Perspective*, 25(1-3), 2016.
+3. I. Sharafaldin, A. H. Lashkari and A. A. Ghorbani, "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization," *4th Int. Conf. on Information Systems Security and Privacy (ICISSP)*, 2018.
+4. M. Tavallaee, E. Bagheri, W. Lu and A. A. Ghorbani, "A Detailed Analysis of the KDD CUP 99 Data Set," *IEEE Symposium on Computational Intelligence for Security and Defense Applications (CISDA)*, 2009.
+
+If you are a dataset owner and want a copy removed from this mirror, please open an issue.
 
 ## Main decisions (summary)
 
