@@ -11,6 +11,15 @@ Downloaded and cleaned on 2026-10-03. The raw files were never modified. Every c
 
 `unsw-nb15/clean/unsw_nb15_full.parquet` (2,540,047 rows) is the cleaned UNSW-NB15 data **with** its duplicates, if you need the raw row count.
 
+## Getting the data
+
+All data files (raw and cleaned, about 1.5 GB) are stored in this repo with **Git LFS**. Install Git LFS before cloning:
+
+```powershell
+git lfs install
+git clone https://github.com/shubham10divakar/Intrusion-Detection-Datasets.git
+```
+
 ## Quick load
 
 ```python

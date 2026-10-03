@@ -1,8 +1,4 @@
-# Data files are large (~2.5 GB) - re-download / rebuild with README.md instructions
-*.csv
-*.parquet
-*.txt
-*.arff
+# Data files are stored with Git LFS (see .gitattributes)
 *.zip
 inital ones/
 
