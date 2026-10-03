@@ -1,0 +1,30 @@
+MIT License
+
+Copyright (c) 2026 Subham
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+Scope: this MIT licence covers the original work in this repository only —
+the cleaning scripts (scripts/), README.md, the NOTES.md files and other
+documentation. It does NOT cover the dataset files (*.csv, *.parquet, *.txt,
+*.arff), including the cleaned derivatives in clean/ folders. Those remain
+subject to their owners' terms (UNSW Canberra for UNSW-NB15; the Canadian
+Institute for Cybersecurity, UNB, for CIC-IDS-2017 and NSL-KDD) — see the
+"Licences and citations" section of README.md.

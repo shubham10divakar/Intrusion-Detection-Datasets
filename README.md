@@ -50,7 +50,7 @@ python -m kaggle datasets download -d hassan06/nslkdd      -p nslkdd/original --
 
 ## Licences and citations
 
-The data in this repo is a **mirror** of third-party datasets. It is redistributed under each owner's terms, as summarised below. The data is **for academic research only**, and anyone using it must cite the original papers. The cleaning scripts and notes are this repo's own work.
+The data in this repo is a **mirror** of third-party datasets. It is redistributed under each owner's terms, as summarised below. The data is **for academic research only**, and anyone using it must cite the original papers. The cleaning scripts and notes are this repo's own work and are released under the [MIT License](LICENSE). The MIT licence does not apply to the dataset files.
 
 | Dataset | Owner | Terms | Cite |
 |---|---|---|---|
